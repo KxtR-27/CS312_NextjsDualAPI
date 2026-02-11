@@ -12,11 +12,15 @@
     "@as-integrations/next": "^4.1.0",
     "graphql": "^16.12.0",
     "graphql-tag": "^2.12.6",
+    "mongodb-memory-server": "^11.0.1",
+    "mongoose": "^9.2.1",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@types/mongodb-memory-server": "^1.8.0",
+    "@types/mongoose": "^5.11.96",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
