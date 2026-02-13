@@ -31,13 +31,13 @@ const updateByZip = async (paramZip: string, newData: WeatherInterface): Promise
 };
 
 const deleteByZip = async (paramZip: string): Promise<boolean> => {
-    try {
-        await weatherModel.deleteOne({ zip: paramZip });
-        return true;
-    } catch (error) {
-        console.log(error)
-        return false
-    }
-}
+	try {
+		await weatherModel.deleteOne({ zip: paramZip });
+		return true;
+	} catch (error) {
+		console.log(error);
+		return false;
+	}
+};
 
 export { storeDocument, findByZip, updateByZip, deleteByZip };
